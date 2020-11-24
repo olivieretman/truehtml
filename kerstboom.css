@@ -1,0 +1,253 @@
+h1  {color: white;
+	 background-color: olive;
+	 font-family: Times;
+	 font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0px;
+	height: 80px;
+	padding: 10px;
+	z-index: auto;
+}
+
+
+body {background-color: ccff77;
+	 font-family: Helvetica ;
+ }
+
+
+h2  {color: #33cc00;
+	font-family: Times;
+	font-size: 36px;}
+
+#Traditie {text-align: right;}
+#Geloof {text-align: left;}
+#Wanneer {text-align: left;}
+
+
+
+.cursief {font-style: italic;
+	color: red;}
+
+.dik {font-weight: bold;
+	color: navy;}
+
+a {font-family: Courier new, monospace;}
+
+.menu {background-color: white;
+	  font-size: 28px;
+		text-align: center;
+		height: 40px;
+		padding: ;
+	}
+
+.menu a {text-transform: none;
+				text-decoration: none;
+				color: #006400;}
+
+.menu a:visited {color: #000080;}
+.menu a:hover {color: white;
+			background-color: #006400;
+			font-size: 30px;}
+
+
+.link {background-color: #3CB371;
+	height: 75px;
+	width: 150px;
+	text-align: center;
+border-style: double;
+border-color: #006400;
+padding: 10px;
+margin: 10px 10px ;
+position: absolute;
+}
+
+.menu li {display: inline;
+margin-right: 10px;}
+
+ul{
+ list-style-image: url('vierkant.jpg');
+}
+
+ol{list-style-type: upper-alpha; }
+
+
+#donkergroen{
+	background-color: olive;
+	color: white;
+	padding: 10px;
+
+}
+#donkergroen2 {
+	background-color: #ccff99;
+	color: olive;
+	empty-cells: hide;
+}
+
+.tabel #jaartal {
+	font-size: 150%;
+	empty-cells: hide;
+}
+
+#donkergroenm {
+	color: olive;
+	empty-cells: hide;
+}
+
+.tabel td {
+	text-align: right;
+	border: 2px solid olive;
+	empty-cells: hide;
+
+}
+
+.tabel {
+	padding: 10px;
+	border-collapse: collapse;
+	empty-cells: hide;
+}
+
+.tabel th{
+	border: 2px solid;
+	empty-cells: hide;
+}
+
+.table {
+	empty-cells: hide;
+}
+
+#text{
+	border: none;
+}
+
+fieldset {
+	width: 450px;
+	border-radius: 10px;
+	border: 1px solid olive;
+	color: olive;
+}
+
+legend {
+	background-color: olive;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#submit{
+	background-color: olive;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	width: 80px;
+	font-weight: bold;
+}
+
+#submit:hover{
+	color: #665544;
+	background-color: #efefef;
+}
+
+.pagina{
+	width: 1000px;
+	background-color: ccffcc;
+	margin: auto;
+	position: relative;
+}
+
+.tekst{
+	padding: 20px;
+}
+
+.traditie{
+	margin-top: 100px;
+	left: 100px;
+}
+
+blockquote{
+	width: 200px;
+	padding: 10px;
+	float: right;
+	font-style: italic;
+	background-color: white;
+}
+
+.historie{
+	color: olive;
+
+}
+
+.kopje{
+	color: olive;
+  font-weight: bold;
+}
+
+.blok1{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	border-collapse: separate;
+	width: 250px;
+	margin: 10px;
+	float: left;
+	top:10px;
+}
+
+.blok2{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	border-collapse: separate;
+	width: 250px;
+	margin: 10px;
+	float: left;
+
+
+}
+
+.blok3{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	width: 250px;
+	border-collapse: separate;
+	margin: 10px;
+	float: left;
+}
+
+.blok4{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	border-collapse: separate;
+	width: 250px;
+	margin: 10px;
+	float: left;
+}
+
+.blok5{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	border-collapse: separate;
+	width: 250px;
+	margin: 10px;
+	float: left;
+}
+
+.blok6{
+	background-color: white;
+	border: 2px solid;
+	padding: 20px;
+	border-collapse: separate;
+	width: 250px;
+	margin: 10px;
+	float: left;
+}
+
+.clear{
+	clear: left;
+}

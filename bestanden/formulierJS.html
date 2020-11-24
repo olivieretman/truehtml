@@ -1,0 +1,65 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+function valideren(form)
+{
+	var foutmeldingen="";
+with(form.naam)
+{
+	if(form.naam.value=='' || form.naam.value==null)
+	{
+		foutmelding="Naam is verplicht <br>";
+		foutmeldingen = foutmeldingen + foutmelding;
+		alert("naam is verplicht");
+		return false;
+	}
+}
+with(form.leeftijd)
+{
+	var lft;
+	lft = parseFloat(form.leeftijd.value);
+	if(lft < 18)
+	{
+		foutmelding="leeftijd, te jong om een kerstboom te kopen <br>";
+		foutmeldingen = foutmeldingen + foutmelding;
+		alert("je bent te jong om een kerstboom te kopen");
+		return false;
+	}
+}
+with(form.email)
+{
+	var x=form.email.value;
+	var atpos=x.indexOf("@");
+	var dotpos=x.lastIndexOf(".");
+	if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+	{
+		foutmelding="geen correct emailadres.";
+		foutmeldingen = foutmeldingen + foutmelding;
+		alert("Geen juist emailadres");
+		return false;
+	}
+}
+
+}
+</script>
+</head>
+<body>
+<h2>FORMULIER</h2>
+<form name="form" method="post" action="" onsubmit="return valideren(this);">
+<table>
+<tr><td>naam: </td><td><input name="naam"></td></tr>
+<tr><td>leeftijd:</td><td><input name="leeftijd"></td></tr>
+<tr><td>geslacht:</td><td><input name="geslacht" type="radio" value="m">M
+  - <input name="geslacht" type="radio" value="v">V </td></tr>
+<tr><td>emailadres:</td><td> <input name="email"></td></tr>
+<tr><td valign="top">graag informatie over:</td><td>
+<input type="checkbox" name="kopen"> Kopen kerstboom<br>
+<input type="checkbox" name="leasen"> Leasen kerstboom<br>
+<input type="checkbox" name="kunst"> Kunstkerstboom<br>
+</td></tr>
+<tr><td>&nbsp;</td><td><input name="submit" type="submit" value="versturen"></td></tr>
+</table>
+</form>
+</body>
+</html>

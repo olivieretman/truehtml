@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Kerstbomen</title>
+		<link href='kerstboom.css' type='text/css' rel='stylesheet' />
+	</head>
+
+	<body>
+		<h1>Kerstbomen</h1>
+
+		<div class='menu'>
+			<ul>
+				<li><a href='kerstboom.html'>Home</a><li>
+				<li><a href='bomen-def.html'>Soorten bomen</a><li>
+				<li class='stappenplan'><a href='stappenplan.html'>Stappenplan</a><li>
+				<li><a href='versiering.html'>Versiering</a><li>
+				<li><a href='kerstboominfo.html'>Informatie</a></li>
+				<li><a href=''></a></li>
+			</ul>
+		</div>
+
+		<hr/>
+		<h2>Bestel je kant en klare kerstboom online</h2>
+
+		<form action="bestelling-gereed.html" method='post'>
+			<fieldset>
+			<legend>Afleveradres</legend>
+
+
+			<p>Naam:
+			<input type='text'name='username' id='text' size='15'maxlength='30'/><br />
+			   Adres:
+			<input type='text'name='adres' id='text' size='15'maxlength='30'/><br />
+			   Postcode:
+			<input type='text'name='postcode' id='text' size='10'maxlength='30'/><br />
+			   Woonplaats:
+			<input type='text'name='woonplaats' id='text' size='15'maxlength='30'/><br />
+			   Emailadres:
+			<input type='text'name='emailadres' id='text' size='14'maxlength='35'/><br />
+			</p>
+			</fieldset>
+			<fieldset>
+			<legend>Specificatie kerstboom</legend>
+			<p>Welke boom wil je hebben:
+			<select name='bomen'>
+			 <option value='fijnspar'>Fijnspar</option>
+			 <option value='servischespar'>Servische spar</option>
+			 <option value='blauwspar'>Blauwspar</option>
+			 <option value='nordmann'>Nordmann</option>
+			</select>
+			</p>
+
+			<p>Hoogte van de boom:
+			<input type='radio'name='hoogte'value='50cm' />50 cm
+			<input type='radio'name='hoogte'value='100cm' />100cm
+			<input type='radio'name='hoogte'value='150cm' checked='checked' />150cm
+			</p>
+
+			<p>Kluit:
+			<input type='radio'name='kluit'value='ja' checked='checked' />ja
+			<input type='radio'name='kluit'value='nee' />nee
+			</p>
+
+			<p>Welke versieringen moeten in de boom: <br />
+			<input type='checkbox' name='versiering' value='wlampjes' checked='checked' />Witte lampjes <br />
+			<input type='checkbox' name='versiering' value='glampjes' />Gekleurde lampjes <br />
+			<input type='checkbox' name='versiering' value='rballen' />Rode ballen <br />
+			<input type='checkbox' name='versiering' value='gballen' />Goudkleurige ballen <br />
+			<input type='checkbox' name='versiering' value='slingers' />Goudkleurige slingers <br />
+			</p>
+			<p>Beschrijf de overige wensen voor de kerstboom <br />
+			<textarea name='comments' cols='45' rows='2'>Opmerking</textarea>
+			</p>
+			<p>Upload een plaatje van je favoriete kerstboom versiering <br />
+			<input type='file' name='bestand' />
+			</p>
+			</fieldset>
+			<input type= 'submit' value='Versturen' id='submit' />
+
+
+
+
+
+		</form>
+	</body>
+</html>

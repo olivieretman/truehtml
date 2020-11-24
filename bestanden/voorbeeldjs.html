@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Voorbeeld 1 js</title>
+</head>
+<body>
+<h1 onmouseover="style.color='blue'; style.fontSize=36" 
+    onmouseout="style.color='black'; style.fontSize=24">
+EEN DYNAMISCHE KOPTEKST
+</h1>
+<script type="text/javascript">
+//dit is een commentaar-regel
+alert("Dit komt door javascript");
+document.write('De eerste tekst in JavaScript<br>');
+document.write('De locatie van deze pagina is: ' + document.location + '<br>');
+document.write('<br />');
+var browser = navigator.appName;
+var versie = navigator.appVersion;
+document.write('U gebruikt versie ' + versie + 'van browser' + browser + '<br />');
+document.write('<br />');
+var naam = prompt ("Wat is je voornaam?");
+document.write("Welkom "+ naam);
+</script>
+</body>
+</html>
